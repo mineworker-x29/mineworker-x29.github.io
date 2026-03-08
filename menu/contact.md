@@ -1,7 +1,10 @@
 ---
 layout: page
-title: Contact
+title: 연락처
 permalink: /contact
 ---
 
-If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=%40paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new)
+- GitHub: [mineworker-x29](https://github.com/mineworker-x29)
+- Email: [hello@example.com](mailto:hello@example.com)
+
+문의/협업 제안은 언제든 편하게 보내주세요.

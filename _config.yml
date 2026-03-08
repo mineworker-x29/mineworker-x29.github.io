@@ -1,29 +1,18 @@
-# Site Build Settings
+# Jekyll build config
 
-# Jekyll-paginate-v2 configuration
-#  pagination:
-#   enabled: true
-#   per_page: 5
-#   permalink: '/page/:num/'
-#   title: ':title - page :num of :max'
-#   limit: 0
-#   sort_field: 'date'
-#   sort_reverse: true
+paginate: 5
 
-# jekyll-paginate configuration
-paginate:            5
+markdown: kramdown
+highlighter: rouge
+permalink: /:title
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
 
-# Build settings
-markdown:            kramdown
-highlighter:         rouge
-permalink:           /:title
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
-
-# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'mineworker'
-description:	       'mine the intelligence'
-author:              'Song Migeon'
-
-# RSS 2.0 can be used instead of Atom by uncommenting following two lines
-#feed:
-#  path: rss-feed.xml
+title: 'mineworker devlog'
+description: '개발 기록과 학습 노트를 쌓는 GitHub 블로그'
+author: 'mineworker'
+url: 'https://mineworker-x29.github.io'
+lang: 'ko-KR'

@@ -1,5 +1,5 @@
 ---
 layout: archive
-title: Writing
+title: 글 목록
 permalink: /writing
 ---
